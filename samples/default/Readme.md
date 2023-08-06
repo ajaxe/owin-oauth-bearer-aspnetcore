@@ -9,3 +9,13 @@ This sample considers the scenatio of incremental upgrade where the legacy appli
 * Migrated Aspnet Core application is configured for incremental upgrade & implements YARP proxy.
 
 * Migrated Aspnet Core application uses custom authentication handler that is port of Owin OAuthe Bearer authentication.
+ 
+## OAuth Configuration
+
+Only implementing _Resource Owner Password_ grant flow.
+
+* `grant_type` - _password_, basic testing
+* `client_id` - _local_test_client_
+* `client_secret` - any value
+* `username` - _foouser_
+* `password` - _secret_
